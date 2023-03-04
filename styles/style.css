@@ -76,3 +76,34 @@
     margin-left: 8px;
     margin-top: 3px;
  }
+ /* ----------------------------------
+    Featured styles starts here
+ ------------------------------------- */
+ .featured-area{
+    display: flex;
+    column-gap: 96px;
+    margin: 0 165px;
+ }
+ .featured-title{
+    color:#0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+ }
+ .featured-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+ }
+ .join-now-btn{
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #E02C6D;
+ }
+ .arrow-btn{
+    margin-top: 10px;
+    margin-left: 8px;
+ }
