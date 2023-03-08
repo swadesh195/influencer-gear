@@ -45,8 +45,9 @@
     margin: 100px 0;
  }
  .sponsor-brands-logo{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* justify-content: space-between; */
     margin: 0 165px;
  }
  .section-title{
@@ -162,6 +163,36 @@ footer p{
    border-radius: 16px;
 }
 .social-icon .fa-instagram, .fa-dribbble, .fa-twitter,.fa-youtube{
-   opacity: 0.1;
+   /* opacity: 0.1; */
    background-color: #fff;
+}
+
+/* Reponsive styles for mobile */
+@media only screen and (max-width: 576px){
+   .container{
+      width: 100%;
+   }
+   .banner-area{
+      flex-direction: column;
+      margin: 50px 80px;
+   }
+   .sponsor-brands-logo{
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 30px;
+      justify-content: center;
+   }
+   .blogs{
+      grid-template-columns: 1fr;
+      justify-items: center;
+   }
+   .blog{
+      width: 329px;
+      height: 476px;
+   }
+   .blog img{
+      width: 100%;
+   }
+   .blog-description{
+      word-wrap: break-word;
+   }
 }
